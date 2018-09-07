@@ -1,0 +1,19 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/gitbook-boilerplate
+    docker:
+    - image: circleci/node:8.9.4
+    steps:
+    - checkout
+    - restore_cache:
+        keys:
+        - v1-dep-{{ .Branch }}-
+        - v1-dep-develop-
+        - v1-dep-
+    - run: yarn
+    - save_cache:
+        key: v1-dep-{{ .Branch }}-{{ epoch }}
+        paths:
+        - ./node_modules
+    - run: npm run heroku-postbuild
