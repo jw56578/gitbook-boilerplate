@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "Boilerplate for generating a GitBook",
   "repository": "git@github.com:AustinCodingAcademy/gitbook-boilerplate.git",
-  "author": "kevin@austincodingacademy.com",
   "license": "UNLISCENSED",
   "private": true,
   "dependencies": {
