@@ -1,19 +1,22 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/gitbook-boilerplate
     docker:
-    - image: circleci/node:8.9.4
+      - image: circleci/node:8.9.4
+    working_directory: ~/repo
     steps:
-    - checkout
-    - restore_cache:
-        keys:
-        - v1-dep-{{ .Branch }}-
-        - v1-dep-develop-
-        - v1-dep-
-    - run: yarn
-    - save_cache:
-        key: v1-dep-{{ .Branch }}-{{ epoch }}
-        paths:
-        - ./node_modules
-    - run: npm run heroku-postbuild
+      - checkout
+      - restore_cache:
+          keys:
+            - yarn-packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
+            - yarn-packages-v1-{{ .Branch }}-
+            - yarn-packages-v1-
+            
+      - run: yarn
+      
+      - save_cache:
+          paths:
+            - ~/.cache/yarn
+          key: yarn-packages-v1-{{ .Branch }}-{{ checksum "yarn.lock" }}
+
+      - run: npm run heroku-postbuild
