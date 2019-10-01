@@ -69,11 +69,11 @@ To do this we'll call one student at random each day of class and they will work
 1. Test and come up with edge case scenarios
 1. Revise if you can for efficiency
 
-{ %hidden% }
+{% hidden %}
 **Prompt 1**: *PUZZLE1*
 
 **Prompt 2**: *PUZZLE2*
-{ %endhidden% }
+{% endhidden %}
 
 ******
 
