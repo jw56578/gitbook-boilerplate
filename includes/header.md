@@ -9,7 +9,7 @@
 </div> -->
 
 <div style="display: flex; align-items: center">
-  <img alt="logo" id="logo-img" src="../images/logos/ACA_Logo.svg" />
+  <img alt="logo" id="logo-img" src="https://www.gravatar.com/avatar/570427f66aea5cddc47c1ef63f973572" />
   <h1 style="margin: 0 10px;">
     <span id="logo-city">Austin</span>
     Coding Academy
