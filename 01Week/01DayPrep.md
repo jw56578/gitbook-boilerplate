@@ -26,33 +26,27 @@
 Happy Code Teaching!
 -->
 
-# Pre-Homework - Subject1 + Subject2
+# Pre-Homework - Angular Components
 
 *InspirationalQuote*
 
 ## Review and Recap
 <!-- @TODO ATTENTION: DEVELOPER, Quickly cover the last prep work and how it bring the student to these new topics. Remember to guide their learning experience and move them through fluidly. The student is our customer and we must create a wonderful user experience for them.  -->
 
-Last week we covered ... and ... . You saw how ... makes ... happen.... you get the point. Give the student context for what they're about to learn now.
+We have built our Angular project from the cli tool. Now we have to actually make something for ourselves.
 <!-- @TODO ^^^ Replace Example Text ^^^ -->
 
-## Subject1 Overview
+## Component Overview
 
-<!-- @TODO ATTENTION: DEVELOPER, In the overview, students should see the why of what they're about to learn about. This is the place for you to use metaphors or familiar everyday objects to relate the abstract computer concept to. Here is where we will tell the students the "WHY" behind what they're about to read and learn about. Then we'll give them an overview of the material, sort of a "Big Picture" of the new concept so they can go in with a context of the very NEW material.-->
+### The Problem
+An industry standard approach to building web apps with all UI tools such as Rectjs, Vue and Angular is to organize code into components. Component is a term for a custom html element. We want to build our own custom elements such as `<my-element>`. You cannot do this without a tool like Angular.
+### The Solution
+We need to learn how to build components in Angular.
 
-Every new concept should be laid out, we need to do ... therefore we will need to use a tool called ... which is pretty easy to use. Let's see how it works.
-<!-- @TODO ^^^ Replace Example Text ^^^ -->
-
-### Read It - Subject1
-
-<!-- @TODO ATTENTION: DEVELOPER, Give them something to read in your words, as if you were talking to them about the topic. Within the reading you can link to a few articles: Medium, Wikipedia, Microsoft, CSS-Tricks, W3S, MozillaDev, etc... anything that can help give more perspective on the subject.  -->
-
-Let's say you need to .... but you're not able to get ...., luckily for us older developers have come across this problem to and created a solution. With this solution we can ... and then ... . After you implement this solution you're app can ... . Make sure to tell a story. Our students don't understand programming yet, that's why they're here. They need to be told a story like a human being.
-<!-- @TODO ^^^ Replace Example Text ^^^ -->
 
 ******
 
-### See It - [Subject1](LINKtoVIDEO1)
+### See It - [Understanding components](LINKtoVIDEO1)
 
 <!-- @TODO ATTENTION: DEVELOPER, 
 1) This should be a clear, high-quality, non-lame video that helps visually explain the concept at-hand. 
@@ -61,11 +55,24 @@ Let's say you need to .... but you're not able to get ...., luckily for us older
 4) THIS PLACEHOLDER VIDEO BELOW BETTER BE REPLACED!!!!!
 -->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XQu8TTBmGhA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://drive.google.com/file/d/1sQj3RKwGQyoHzbHGZ9ix7oY3Qx4n4sAV/preview" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+******
+### See It - [Making a Basic Component](LINKtoVIDEO1)
+
+<!-- @TODO ATTENTION: DEVELOPER, 
+1) This should be a clear, high-quality, non-lame video that helps visually explain the concept at-hand. 
+2) It can come from youTube as long as it doesn't advertise or come from another code school. 
+3) Preferably, all video content should come from ACA. 
+4) THIS PLACEHOLDER VIDEO BELOW BETTER BE REPLACED!!!!!
+-->
+
+<iframe width="560" height="315" src="https://drive.google.com/file/d/1jIuugvlSyYGqO4_Zw6bTFbP9CXNFls4J/preview" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ******
 
-### Practice It - [Subject1](URLtoEXAMPLE1)
+
+### Practice It - [Make a Component](https://stackblitz.com/edit/angular-starter-421-day1-makeacomponent)
 
 <!-- @TODO ATTENTION: DEVELOPER, 
 1) Insert an iframe of a DotNet Fiddle, CodePen, or Repl.it with  pre-built code block(s) for the student to begin tinkering with quickly. 
@@ -73,18 +80,18 @@ Let's say you need to .... but you're not able to get ...., luckily for us older
 3)if you don't have the credentials for the ACA account ASK!!. 
 4)In the sandbox above you will do x, y, z. Give the student  instructions to get them in to the code more quickly. Remember, they're very young and you will need to guide them a little more to get them going. -->
 
-1. Go to [URLtoEXAMPLE](URLtoEXAMPLE1)
-1. Find ___
-1. Then ...
-1. Next ,,,
-1. Now :::
+1. Log into stackblitz with your github account.
+1. Go to [this stackblitz project](https://stackblitz.com/edit/angular-starter-421-day1-makeacomponent) and fork it
+1. Follow the exact steps as shown in the video to make your own component in Angular
+1. Slow down, speed up, pause, rewind and fast forward the video as necessary 
+1. When complete submit the link to the pre work homework entry for PreWork_Day1_FirstComponent
 
 ******
 
 ### Know Your Docs - Subject1
 <!-- @TODO ATTENTION: DEVELOPER, Student's often forget there is documentation to use. Give them the link so they know where it is. -->
 
-Be sure to reference the official documentation on [Subject1](URLtoDocs1). Documentation makes software useful. All *good* software comes with documentation so new developers can pick it up, learn quickly, apply, and even change it if needed.
+Be sure to reference the official documentation on [Angular Components](https://angular.io/guide/architecture-components). Documentation makes software useful. All *good* software comes with documentation so new developers can pick it up, learn quickly, apply, and even change it if needed.
 
 ******
 ******
@@ -114,7 +121,7 @@ Let's say you need to .... but you're not able to get ...., luckily for us older
 4) THIS PLACEHOLDER VIDEO BELOW BETTER BE REPLACED!!!!!
 -->
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/XQu8TTBmGhA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://drive.google.com/file/d/1SeFvRAohVj3JlyeT5lXpxMsklLPpHPaN/preview" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ******
 
