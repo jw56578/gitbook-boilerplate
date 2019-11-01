@@ -418,21 +418,21 @@ Happy Code Teaching!
 <li>When complete submit the link to the pre work homework entry for PreWork_Day1_FirstComponent</li>
 </ol>
 <hr>
-<h3 id="know-your-docs---subject1">Know Your Docs - Subject1</h3>
+<h3 id="know-your-docs---angular-components">Know Your Docs - Angular Components</h3>
 <!-- @TODO ATTENTION: DEVELOPER, Student's often forget there is documentation to use. Give them the link so they know where it is. -->
 <p>Be sure to reference the official documentation on <a href="https://angular.io/guide/architecture-components" target="_blank">Angular Components</a>. Documentation makes software useful. All <em>good</em> software comes with documentation so new developers can pick it up, learn quickly, apply, and even change it if needed.</p>
 <hr>
 <hr>
-<h2 id="subject2">Subject2</h2>
+<h2 id="component-generator">Component Generator</h2>
 <!-- @TODO ATTENTION: DEVELOPER, In the overview, students should see the why of what they're about to learn about. This is the place for you to use metaphors or familiar everyday objects to relate the abstract computer concept to. Here is where we will tell the students the "WHY" behind what they're about to read and learn about. Then we'll give them an overview of the material, sort of a "Big Picture" of the new concept so they can go in with a context of the very NEW material.-->
-<p>Every new concept should be laid out, we need to do ... therefore we will need to use a tool called ... which is pretty easy to use. Let&apos;s see how it works.
+<p>Let&apos;s learn how to use software tools to help us do repetitive tasks.
 <!-- @TODO ^^^ Replace Example Text ^^^ --></p>
-<h3 id="read-it---subject2">Read It - Subject2</h3>
+<h3 id="read-it---component-generator">Read It - Component Generator</h3>
 <!-- @TODO ATTENTION: DEVELOPER, Give them something to read in your words, as if you were talking to them about the topic. Within the reading you can link to a few articles: Medium, Wikipedia, Microsoft, CSS-Tricks, W3S, MozillaDev, etc... anything that can help give more perspective on the subject.  -->
-<p>Let&apos;s say you need to .... but you&apos;re not able to get ...., luckily for us older developers have come across this problem to and created a solution. With this solution we can ... and then ... . After you implement this solution you&apos;re app can ... . Make sure to tell a story. Our students don&apos;t understand programming yet, that&apos;s why they&apos;re here. They need to be told a story like a human being.
+<p>At this point, we know how to make the most basic component possible. We had to make several files and import those files into other locations. I don&#x2019;t know about you, but I consider that to be a lot of work we did. The thing is, I said that this is the standard operating procedure. We do this every time we want to make a component. Well, why do we have to do this? Why can&#x2019;t the computer do this for us? Luckily it can. We can use the Angular CLI tool to do all this stuff for us.
 <!-- @TODO ^^^ Replace Example Text ^^^ --></p>
 <hr>
-<h3 id="see-it---subject2">See It - <a href="LINKtoVIDEO2">Subject2</a></h3>
+<h3 id="see-it---ng-generate">See It - <a href="https://drive.google.com/file/d/1SeFvRAohVj3JlyeT5lXpxMsklLPpHPaN/preview" target="_blank">ng generate</a></h3>
 <!-- @TODO ATTENTION: DEVELOPER,
 1) This should be a clear, high-quality, non-lame video that helps visually explain the concept at-hand. 
 2) It can come from youTube as long as it doesn't advertise or come from another code school. 
@@ -449,16 +449,147 @@ Happy Code Teaching!
 3)if you don't have the credentials for the ACA account ASK!!. 
 4)In the sandbox above you will do x, y, z. Give the student  instructions to get them in to the code more quickly. Remember, they're very young and you will need to guide them a little more to get them going. -->
 <ol>
-<li>Go to <a href="URLtoEXAMPLE2">URLtoEXAMPLE</a></li>
-<li>Find <em>_</em></li>
-<li>Then ...</li>
-<li>Next ,,,</li>
-<li>Now :::</li>
+<li>Run the ng new command to make a project</li>
+<li>Run the ng generate command to build a new component</li>
+</ol>
+<hr>
+<h3 id="know-your-docs---ng-generate">Know Your Docs - ng generate</h3>
+<!-- @TODO ATTENTION: DEVELOPER, Student's often forget there is documentation to use. Give them the link so they know where it is. -->
+<p>Be sure to reference the official documentation on <a href="URLtoDocs2">Subject2</a>. Documentation makes software useful. All <em>good</em> software comes with documentation so new developers can pick it up, learn quickly, apply, and even change it if needed.</p>
+<hr>
+<hr>
+<h2 id="template-interpolation">Template Interpolation</h2>
+<!-- @TODO ATTENTION: DEVELOPER, In the overview, students should see the why of what they're about to learn about. This is the place for you to use metaphors or familiar everyday objects to relate the abstract computer concept to. Here is where we will tell the students the "WHY" behind what they're about to read and learn about. Then we'll give them an overview of the material, sort of a "Big Picture" of the new concept so they can go in with a context of the very NEW material.-->
+<p>Let&apos;s learn how to populate our component html with dynamic data with template interpolation.
+<!-- @TODO ^^^ Replace Example Text ^^^ --></p>
+<h3 id="read-it---template-interpolation">Read It - Template Interpolation</h3>
+<!-- @TODO ATTENTION: DEVELOPER, Give them something to read in your words, as if you were talking to them about the topic. Within the reading you can link to a few articles: Medium, Wikipedia, Microsoft, CSS-Tricks, W3S, MozillaDev, etc... anything that can help give more perspective on the subject.  -->
+<p>Do you see anything wrong with the component we have made? Hopefully you noticed that our component isn&apos;t very reusable as the html is hard coded to the same thing. If you use your component in multiple places it will show the same information. We need to be able to re use the html but make the information such as first name dynamic.</p>
+<!-- @TODO ^^^ Replace Example Text ^^^ -->
+<hr>
+<h3 id="see-it---template-interpolation">See It - <a href="">Template Interpolation</a></h3>
+<!-- @TODO ATTENTION: DEVELOPER,
+1) This should be a clear, high-quality, non-lame video that helps visually explain the concept at-hand. 
+2) It can come from youTube as long as it doesn't advertise or come from another code school. 
+3) Preferably, all video content should come from ACA. 
+4) THIS PLACEHOLDER VIDEO BELOW BETTER BE REPLACED!!!!!
+-->
+<iframe width="560" height="315" src="https://drive.google.com/file/d/1_4SYliWNf6h5cTpMxVngyPHn_aAPfXuh/preview" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<hr>
+<h3 id="practice-it---template-interpolation">Practice It - <a href="URLtoEXAMPLE2">Template Interpolation</a></h3>
+<!-- @TODO ATTENTION: DEVELOPER,
+1) Insert an iframe of a DotNet Fiddle, CodePen, or Repl.it with  pre-built code block(s) for the student to begin tinkering with quickly. 
+2) The Code Sandbox should owned by ACA; 
+3)if you don't have the credentials for the ACA account ASK!!. 
+4)In the sandbox above you will do x, y, z. Give the student  instructions to get them in to the code more quickly. Remember, they're very young and you will need to guide them a little more to get them going. -->
+<ol>
+<li>Try updating your component to use a class property</li>
+<li>Populate the html template with data using interpolation</li>
 </ol>
 <hr>
 <h3 id="know-your-docs---subject2">Know Your Docs - Subject2</h3>
 <!-- @TODO ATTENTION: DEVELOPER, Student's often forget there is documentation to use. Give them the link so they know where it is. -->
 <p>Be sure to reference the official documentation on <a href="URLtoDocs2">Subject2</a>. Documentation makes software useful. All <em>good</em> software comes with documentation so new developers can pick it up, learn quickly, apply, and even change it if needed.</p>
+<hr>
+<hr>
+<h2 id="lifecycle-hooks">Lifecycle Hooks</h2>
+<!-- @TODO ATTENTION: DEVELOPER, In the overview, students should see the why of what they're about to learn about. This is the place for you to use metaphors or familiar everyday objects to relate the abstract computer concept to. Here is where we will tell the students the "WHY" behind what they're about to read and learn about. Then we'll give them an overview of the material, sort of a "Big Picture" of the new concept so they can go in with a context of the very NEW material.-->
+<p>Let&apos;s learn hwo to use lifecycle hooks as the appropriate place to initialize data.
+<!-- @TODO ^^^ Replace Example Text ^^^ --></p>
+<h3 id="read-it---lifecycle-hooks">Read It - Lifecycle Hooks</h3>
+<!-- @TODO ATTENTION: DEVELOPER, Give them something to read in your words, as if you were talking to them about the topic. Within the reading you can link to a few articles: Medium, Wikipedia, Microsoft, CSS-Tricks, W3S, MozillaDev, etc... anything that can help give more perspective on the subject.  -->
+<!-- @TODO ^^^ Replace Example Text ^^^ -->
+<hr>
+<h3 id="see-it---lifecycle-hooks">See It - <a href="">Lifecycle Hooks</a></h3>
+<!-- @TODO ATTENTION: DEVELOPER,
+1) This should be a clear, high-quality, non-lame video that helps visually explain the concept at-hand. 
+2) It can come from youTube as long as it doesn't advertise or come from another code school. 
+3) Preferably, all video content should come from ACA. 
+4) THIS PLACEHOLDER VIDEO BELOW BETTER BE REPLACED!!!!!
+-->
+<iframe width="560" height="315" src="https://drive.google.com/file/d/1R0OjrtzVF5Jz23bO7fo-0urdHWV9UfmI/preview" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<hr>
+<h3 id="practice-it---lifecycle-hooks">Practice It - <a href="URLtoEXAMPLE2">Lifecycle Hooks</a></h3>
+<!-- @TODO ATTENTION: DEVELOPER,
+1) Insert an iframe of a DotNet Fiddle, CodePen, or Repl.it with  pre-built code block(s) for the student to begin tinkering with quickly. 
+2) The Code Sandbox should owned by ACA; 
+3)if you don't have the credentials for the ACA account ASK!!. 
+4)In the sandbox above you will do x, y, z. Give the student  instructions to get them in to the code more quickly. Remember, they're very young and you will need to guide them a little more to get them going. -->
+<ol>
+<li>Try updating your component to use the OnInit lifecycle hook to initialize a class property</li>
+</ol>
+<hr>
+<h3 id="know-your-docs---subject2">Know Your Docs - Subject2</h3>
+<!-- @TODO ATTENTION: DEVELOPER, Student's often forget there is documentation to use. Give them the link so they know where it is. -->
+<p>Be sure to reference the official documentation on <a href="URLtoDocs2">Subject2</a>. Documentation makes software useful. All <em>good</em> software comes with documentation so new developers can pick it up, learn quickly, apply, and even change it if needed.</p>
+<hr>
+<hr>
+<h2 id="looping-in-templates">Looping in Templates</h2>
+<!-- @TODO ATTENTION: DEVELOPER, In the overview, students should see the why of what they're about to learn about. This is the place for you to use metaphors or familiar everyday objects to relate the abstract computer concept to. Here is where we will tell the students the "WHY" behind what they're about to read and learn about. Then we'll give them an overview of the material, sort of a "Big Picture" of the new concept so they can go in with a context of the very NEW material.-->
+<p>Let&apos;s learn how to use dynamic data to generate multiple html elements based on that data.
+<!-- @TODO ^^^ Replace Example Text ^^^ --></p>
+<h3 id="read-it---ngforof">Read It - ngForOf</h3>
+<!-- @TODO ATTENTION: DEVELOPER, Give them something to read in your words, as if you were talking to them about the topic. Within the reading you can link to a few articles: Medium, Wikipedia, Microsoft, CSS-Tricks, W3S, MozillaDev, etc... anything that can help give more perspective on the subject.  -->
+<!-- @TODO ^^^ Replace Example Text ^^^ -->
+<hr>
+<h3 id="see-it---ngforof">See It - <a href="">ngForOf</a></h3>
+<!-- @TODO ATTENTION: DEVELOPER,
+1) This should be a clear, high-quality, non-lame video that helps visually explain the concept at-hand. 
+2) It can come from youTube as long as it doesn't advertise or come from another code school. 
+3) Preferably, all video content should come from ACA. 
+4) THIS PLACEHOLDER VIDEO BELOW BETTER BE REPLACED!!!!!
+-->
+<iframe width="560" height="315" src="https://drive.google.com/file/d/12JyGMKPEi6WmnRVnyVODonv-wNG3uLNH/preview" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<hr>
+<h3 id="practice-it---ngforof">Practice It - <a href="URLtoEXAMPLE2">ngForOf</a></h3>
+<!-- @TODO ATTENTION: DEVELOPER,
+1) Insert an iframe of a DotNet Fiddle, CodePen, or Repl.it with  pre-built code block(s) for the student to begin tinkering with quickly. 
+2) The Code Sandbox should owned by ACA; 
+3)if you don't have the credentials for the ACA account ASK!!. 
+4)In the sandbox above you will do x, y, z. Give the student  instructions to get them in to the code more quickly. Remember, they're very young and you will need to guide them a little more to get them going. -->
+<ol>
+<li>Try updating your component to use the ngForOf</li>
+</ol>
+<hr>
+<h3 id="know-your-docs---subject2">Know Your Docs - Subject2</h3>
+<!-- @TODO ATTENTION: DEVELOPER, Student's often forget there is documentation to use. Give them the link so they know where it is. -->
+<p>Be sure to reference the official documentation on <a href="URLtoDocs2">Subject2</a>. Documentation makes software useful. All <em>good</em> software comes with documentation so new developers can pick it up, learn quickly, apply, and even change it if needed.</p>
+<hr>
+<hr>
+<h2 id="conditional-rendering">Conditional Rendering</h2>
+<!-- @TODO ATTENTION: DEVELOPER, In the overview, students should see the why of what they're about to learn about. This is the place for you to use metaphors or familiar everyday objects to relate the abstract computer concept to. Here is where we will tell the students the "WHY" behind what they're about to read and learn about. Then we'll give them an overview of the material, sort of a "Big Picture" of the new concept so they can go in with a context of the very NEW material.-->
+<p>Let&apos;s learn how to conditionaly render html elements based on dynamic data.
+<!-- @TODO ^^^ Replace Example Text ^^^ --></p>
+<h3 id="read-it---ngif">Read It - NgIf</h3>
+<!-- @TODO ATTENTION: DEVELOPER, Give them something to read in your words, as if you were talking to them about the topic. Within the reading you can link to a few articles: Medium, Wikipedia, Microsoft, CSS-Tricks, W3S, MozillaDev, etc... anything that can help give more perspective on the subject.  -->
+<!-- @TODO ^^^ Replace Example Text ^^^ -->
+<hr>
+<h3 id="see-it---ngif">See It - <a href="">NgIf</a></h3>
+<!-- @TODO ATTENTION: DEVELOPER,
+1) This should be a clear, high-quality, non-lame video that helps visually explain the concept at-hand. 
+2) It can come from youTube as long as it doesn't advertise or come from another code school. 
+3) Preferably, all video content should come from ACA. 
+4) THIS PLACEHOLDER VIDEO BELOW BETTER BE REPLACED!!!!!
+-->
+<iframe width="560" height="315" src="https://drive.google.com/file/d/14FBojbJoteik-4Rir3-2QHnyHctgIwte/preview" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<hr>
+<h3 id="practice-it---ngif">Practice It - <a href="URLtoEXAMPLE2">NgIf</a></h3>
+<!-- @TODO ATTENTION: DEVELOPER,
+1) Insert an iframe of a DotNet Fiddle, CodePen, or Repl.it with  pre-built code block(s) for the student to begin tinkering with quickly. 
+2) The Code Sandbox should owned by ACA; 
+3)if you don't have the credentials for the ACA account ASK!!. 
+4)In the sandbox above you will do x, y, z. Give the student  instructions to get them in to the code more quickly. Remember, they're very young and you will need to guide them a little more to get them going. -->
+<ol>
+<li>Try implementing NgIf in a stackblitz project</li>
+</ol>
+<hr>
+<h3 id="know-your-docs---ngif">Know Your Docs - NgIf</h3>
+<!-- @TODO ATTENTION: DEVELOPER, Student's often forget there is documentation to use. Give them the link so they know where it is. -->
+<p>Be sure to reference the official documentation on <a href="https://angular.io/api/common/NgIf" target="_blank">NgIf</a>. Documentation makes software useful. All <em>good</em> software comes with documentation so new developers can pick it up, learn quickly, apply, and even change it if needed.</p>
 <hr>
 <h2 id="questions-for-class-discussion">Questions for Class Discussion</h2>
 <!-- @TODO ATTENTION: DEVELOPER, Write down a few questions you'd like to ask the student by the time they've finished this pre-homework. We'll copy/paste them to the following class day. -->
@@ -556,7 +687,7 @@ Happy Code Teaching!
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"D1 Pre-HW - Subject01 + Subject02","level":"1.2.6","depth":2,"next":{"title":"Week 1","level":"1.3","depth":1,"ref":"","articles":[{"title":"D1 Pre-HW - Subject01 + Subject02","level":"1.3.1","depth":2,"path":"01Week/01DayPrep.md","ref":"01Week/01DayPrep.md","articles":[]},{"title":"D1 Class - ProjectTitle01","level":"1.3.2","depth":2,"path":"01Week/01DayClass.md","ref":"01Week/01DayClass.md","articles":[]},{"title":"D2 Pre-HW - Subject03 + Subject04","level":"1.3.3","depth":2,"path":"01Week/02DayPrep.md","ref":"01Week/02DayPrep.md","articles":[]},{"title":"D2 Class - ProjectTitle02","level":"1.3.4","depth":2,"path":"01Week/02DayClass.md","ref":"01Week/02DayClass.md","articles":[]}]},"previous":{"title":"Step 5 Create Your Blog","level":"1.2.5","depth":2,"path":"preCourseWork/startYourBlog-Prep.md","ref":"preCourseWork/startYourBlog-Prep.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["tonic-aca","edit-link","-sharing","collapsible-chapters","ga","wide-page","hidden","replace-with-index-html","page-toc","livereload"],"pluginsConfig":{"livereload":{},"search":{},"collapsible-chapters":{},"wide-page":{},"page-toc":{"selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4","position":"top","showByDefault":true},"hidden":{"usernames":["aca-staff"]},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"replace-with-index-html":{},"ga":{"configuration":{"name":""},"token":"UA-68821515-2"},"edit-link":{"label":"Edit This Page","base":"https://github.com/AustinCodingAcademy/dell1-gitbook/edit/master/"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"tonic-aca":{}},"structure":{"langs":"LANGS.md","readme":"home.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"01Week/01DayPrep.md","mtime":"2019-10-27T22:29:39.290Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-10-27T22:29:53.237Z"},"basePath":"..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"D1 Pre-HW - Subject01 + Subject02","level":"1.2.6","depth":2,"next":{"title":"Week 1","level":"1.3","depth":1,"ref":"","articles":[{"title":"D1 Pre-HW - Subject01 + Subject02","level":"1.3.1","depth":2,"path":"01Week/01DayPrep.md","ref":"01Week/01DayPrep.md","articles":[]},{"title":"D1 Class - ProjectTitle01","level":"1.3.2","depth":2,"path":"01Week/01DayClass.md","ref":"01Week/01DayClass.md","articles":[]},{"title":"D2 Pre-HW - Subject03 + Subject04","level":"1.3.3","depth":2,"path":"01Week/02DayPrep.md","ref":"01Week/02DayPrep.md","articles":[]},{"title":"D2 Class - ProjectTitle02","level":"1.3.4","depth":2,"path":"01Week/02DayClass.md","ref":"01Week/02DayClass.md","articles":[]}]},"previous":{"title":"Step 5 Create Your Blog","level":"1.2.5","depth":2,"path":"preCourseWork/startYourBlog-Prep.md","ref":"preCourseWork/startYourBlog-Prep.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["tonic-aca","edit-link","-sharing","collapsible-chapters","ga","wide-page","hidden","replace-with-index-html","page-toc","livereload"],"pluginsConfig":{"livereload":{},"search":{},"collapsible-chapters":{},"wide-page":{},"page-toc":{"selector":".markdown-section h1, .markdown-section h2, .markdown-section h3, .markdown-section h4","position":"top","showByDefault":true},"hidden":{"usernames":["aca-staff"]},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"highlight":{},"replace-with-index-html":{},"ga":{"configuration":{"name":""},"token":"UA-68821515-2"},"edit-link":{"label":"Edit This Page","base":"https://github.com/AustinCodingAcademy/dell1-gitbook/edit/master/"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"tonic-aca":{}},"structure":{"langs":"LANGS.md","readme":"home.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"01Week/01DayPrep.md","mtime":"2019-10-28T14:39:24.452Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2019-11-01T01:55:09.475Z"},"basePath":"..","book":{"language":""}});
         });
     </script>
 </div>
