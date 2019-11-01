@@ -88,7 +88,7 @@ We need to learn how to build components in Angular.
 
 ******
 
-### Know Your Docs - Subject1
+### Know Your Docs - Angular Components
 <!-- @TODO ATTENTION: DEVELOPER, Student's often forget there is documentation to use. Give them the link so they know where it is. -->
 
 Be sure to reference the official documentation on [Angular Components](https://angular.io/guide/architecture-components). Documentation makes software useful. All *good* software comes with documentation so new developers can pick it up, learn quickly, apply, and even change it if needed.
@@ -96,23 +96,23 @@ Be sure to reference the official documentation on [Angular Components](https://
 ******
 ******
 
-## Subject2
+## Component Generator
 
 <!-- @TODO ATTENTION: DEVELOPER, In the overview, students should see the why of what they're about to learn about. This is the place for you to use metaphors or familiar everyday objects to relate the abstract computer concept to. Here is where we will tell the students the "WHY" behind what they're about to read and learn about. Then we'll give them an overview of the material, sort of a "Big Picture" of the new concept so they can go in with a context of the very NEW material.-->
 
-Every new concept should be laid out, we need to do ... therefore we will need to use a tool called ... which is pretty easy to use. Let's see how it works.
+Let's learn how to use software tools to help us do repetitive tasks.
 <!-- @TODO ^^^ Replace Example Text ^^^ -->
 
-### Read It - Subject2
+### Read It - Component Generator
 
 <!-- @TODO ATTENTION: DEVELOPER, Give them something to read in your words, as if you were talking to them about the topic. Within the reading you can link to a few articles: Medium, Wikipedia, Microsoft, CSS-Tricks, W3S, MozillaDev, etc... anything that can help give more perspective on the subject.  -->
 
-Let's say you need to .... but you're not able to get ...., luckily for us older developers have come across this problem to and created a solution. With this solution we can ... and then ... . After you implement this solution you're app can ... . Make sure to tell a story. Our students don't understand programming yet, that's why they're here. They need to be told a story like a human being.
+At this point, we know how to make the most basic component possible. We had to make several files and import those files into other locations. I don’t know about you, but I consider that to be a lot of work we did. The thing is, I said that this is the standard operating procedure. We do this every time we want to make a component. Well, why do we have to do this? Why can’t the computer do this for us? Luckily it can. We can use the Angular CLI tool to do all this stuff for us.
 <!-- @TODO ^^^ Replace Example Text ^^^ -->
 
 ******
 
-### See It - [Subject2](LINKtoVIDEO2)
+### See It - [ng generate](https://drive.google.com/file/d/1SeFvRAohVj3JlyeT5lXpxMsklLPpHPaN/preview)
 
 <!-- @TODO ATTENTION: DEVELOPER,
 1) This should be a clear, high-quality, non-lame video that helps visually explain the concept at-hand. 
@@ -133,11 +133,64 @@ Let's say you need to .... but you're not able to get ...., luckily for us older
 3)if you don't have the credentials for the ACA account ASK!!. 
 4)In the sandbox above you will do x, y, z. Give the student  instructions to get them in to the code more quickly. Remember, they're very young and you will need to guide them a little more to get them going. -->
 
-1. Go to [URLtoEXAMPLE](URLtoEXAMPLE2)
-1. Find ___
-1. Then ...
-1. Next ,,,
-1. Now :::
+1. Run the ng new command to make a project
+1. Run the ng generate command to build a new component
+
+******
+
+### Know Your Docs - ng generate
+<!-- @TODO ATTENTION: DEVELOPER, Student's often forget there is documentation to use. Give them the link so they know where it is. -->
+
+Be sure to reference the official documentation on [Subject2](URLtoDocs2). Documentation makes software useful. All *good* software comes with documentation so new developers can pick it up, learn quickly, apply, and even change it if needed.
+
+******
+
+
+
+
+
+
+******
+
+## Template Interpolation
+
+<!-- @TODO ATTENTION: DEVELOPER, In the overview, students should see the why of what they're about to learn about. This is the place for you to use metaphors or familiar everyday objects to relate the abstract computer concept to. Here is where we will tell the students the "WHY" behind what they're about to read and learn about. Then we'll give them an overview of the material, sort of a "Big Picture" of the new concept so they can go in with a context of the very NEW material.-->
+
+Let's learn how to populate our component html with dynamic data with template interpolation.
+<!-- @TODO ^^^ Replace Example Text ^^^ -->
+
+### Read It - Template Interpolation
+
+<!-- @TODO ATTENTION: DEVELOPER, Give them something to read in your words, as if you were talking to them about the topic. Within the reading you can link to a few articles: Medium, Wikipedia, Microsoft, CSS-Tricks, W3S, MozillaDev, etc... anything that can help give more perspective on the subject.  -->
+Do you see anything wrong with the component we have made? Hopefully you noticed that our component isn't very reusable as the html is hard coded to the same thing. If you use your component in multiple places it will show the same information. We need to be able to re use the html but make the information such as first name dynamic.
+
+<!-- @TODO ^^^ Replace Example Text ^^^ -->
+
+******
+
+### See It - [Template Interpolation]()
+
+<!-- @TODO ATTENTION: DEVELOPER,
+1) This should be a clear, high-quality, non-lame video that helps visually explain the concept at-hand. 
+2) It can come from youTube as long as it doesn't advertise or come from another code school. 
+3) Preferably, all video content should come from ACA. 
+4) THIS PLACEHOLDER VIDEO BELOW BETTER BE REPLACED!!!!!
+-->
+
+<iframe width="560" height="315" src="https://drive.google.com/file/d/1_4SYliWNf6h5cTpMxVngyPHn_aAPfXuh/preview" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+******
+
+### Practice It - [Template Interpolation](URLtoEXAMPLE2)
+
+<!-- @TODO ATTENTION: DEVELOPER,
+1) Insert an iframe of a DotNet Fiddle, CodePen, or Repl.it with  pre-built code block(s) for the student to begin tinkering with quickly. 
+2) The Code Sandbox should owned by ACA; 
+3)if you don't have the credentials for the ACA account ASK!!. 
+4)In the sandbox above you will do x, y, z. Give the student  instructions to get them in to the code more quickly. Remember, they're very young and you will need to guide them a little more to get them going. -->
+
+1. Try updating your component to use a class property
+1. Populate the html template with data using interpolation
 
 ******
 
@@ -147,6 +200,165 @@ Let's say you need to .... but you're not able to get ...., luckily for us older
 Be sure to reference the official documentation on [Subject2](URLtoDocs2). Documentation makes software useful. All *good* software comes with documentation so new developers can pick it up, learn quickly, apply, and even change it if needed.
 
 ******
+
+******
+
+## Lifecycle Hooks
+
+<!-- @TODO ATTENTION: DEVELOPER, In the overview, students should see the why of what they're about to learn about. This is the place for you to use metaphors or familiar everyday objects to relate the abstract computer concept to. Here is where we will tell the students the "WHY" behind what they're about to read and learn about. Then we'll give them an overview of the material, sort of a "Big Picture" of the new concept so they can go in with a context of the very NEW material.-->
+
+Let's learn hwo to use lifecycle hooks as the appropriate place to initialize data.
+<!-- @TODO ^^^ Replace Example Text ^^^ -->
+
+### Read It - Lifecycle Hooks
+
+<!-- @TODO ATTENTION: DEVELOPER, Give them something to read in your words, as if you were talking to them about the topic. Within the reading you can link to a few articles: Medium, Wikipedia, Microsoft, CSS-Tricks, W3S, MozillaDev, etc... anything that can help give more perspective on the subject.  -->
+
+
+<!-- @TODO ^^^ Replace Example Text ^^^ -->
+
+******
+
+### See It - [Lifecycle Hooks]()
+
+<!-- @TODO ATTENTION: DEVELOPER,
+1) This should be a clear, high-quality, non-lame video that helps visually explain the concept at-hand. 
+2) It can come from youTube as long as it doesn't advertise or come from another code school. 
+3) Preferably, all video content should come from ACA. 
+4) THIS PLACEHOLDER VIDEO BELOW BETTER BE REPLACED!!!!!
+-->
+
+<iframe width="560" height="315" src="https://drive.google.com/file/d/1R0OjrtzVF5Jz23bO7fo-0urdHWV9UfmI/preview" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+******
+
+### Practice It - [Lifecycle Hooks](URLtoEXAMPLE2)
+
+<!-- @TODO ATTENTION: DEVELOPER,
+1) Insert an iframe of a DotNet Fiddle, CodePen, or Repl.it with  pre-built code block(s) for the student to begin tinkering with quickly. 
+2) The Code Sandbox should owned by ACA; 
+3)if you don't have the credentials for the ACA account ASK!!. 
+4)In the sandbox above you will do x, y, z. Give the student  instructions to get them in to the code more quickly. Remember, they're very young and you will need to guide them a little more to get them going. -->
+
+1. Try updating your component to use the OnInit lifecycle hook to initialize a class property
+
+******
+
+### Know Your Docs - Subject2
+<!-- @TODO ATTENTION: DEVELOPER, Student's often forget there is documentation to use. Give them the link so they know where it is. -->
+
+Be sure to reference the official documentation on [Subject2](URLtoDocs2). Documentation makes software useful. All *good* software comes with documentation so new developers can pick it up, learn quickly, apply, and even change it if needed.
+
+******
+
+
+
+
+******
+
+## Looping in Templates
+
+<!-- @TODO ATTENTION: DEVELOPER, In the overview, students should see the why of what they're about to learn about. This is the place for you to use metaphors or familiar everyday objects to relate the abstract computer concept to. Here is where we will tell the students the "WHY" behind what they're about to read and learn about. Then we'll give them an overview of the material, sort of a "Big Picture" of the new concept so they can go in with a context of the very NEW material.-->
+
+Let's learn how to use dynamic data to generate multiple html elements based on that data.
+<!-- @TODO ^^^ Replace Example Text ^^^ -->
+
+### Read It - ngForOf
+
+<!-- @TODO ATTENTION: DEVELOPER, Give them something to read in your words, as if you were talking to them about the topic. Within the reading you can link to a few articles: Medium, Wikipedia, Microsoft, CSS-Tricks, W3S, MozillaDev, etc... anything that can help give more perspective on the subject.  -->
+
+
+<!-- @TODO ^^^ Replace Example Text ^^^ -->
+
+******
+
+### See It - [ngForOf]()
+
+<!-- @TODO ATTENTION: DEVELOPER,
+1) This should be a clear, high-quality, non-lame video that helps visually explain the concept at-hand. 
+2) It can come from youTube as long as it doesn't advertise or come from another code school. 
+3) Preferably, all video content should come from ACA. 
+4) THIS PLACEHOLDER VIDEO BELOW BETTER BE REPLACED!!!!!
+-->
+
+<iframe width="560" height="315" src="https://drive.google.com/file/d/12JyGMKPEi6WmnRVnyVODonv-wNG3uLNH/preview" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+******
+
+### Practice It - [ngForOf](URLtoEXAMPLE2)
+
+<!-- @TODO ATTENTION: DEVELOPER,
+1) Insert an iframe of a DotNet Fiddle, CodePen, or Repl.it with  pre-built code block(s) for the student to begin tinkering with quickly. 
+2) The Code Sandbox should owned by ACA; 
+3)if you don't have the credentials for the ACA account ASK!!. 
+4)In the sandbox above you will do x, y, z. Give the student  instructions to get them in to the code more quickly. Remember, they're very young and you will need to guide them a little more to get them going. -->
+
+1. Try updating your component to use the ngForOf
+
+******
+
+### Know Your Docs - Subject2
+<!-- @TODO ATTENTION: DEVELOPER, Student's often forget there is documentation to use. Give them the link so they know where it is. -->
+
+Be sure to reference the official documentation on [Subject2](URLtoDocs2). Documentation makes software useful. All *good* software comes with documentation so new developers can pick it up, learn quickly, apply, and even change it if needed.
+
+******
+
+
+
+******
+
+## Conditional Rendering
+
+<!-- @TODO ATTENTION: DEVELOPER, In the overview, students should see the why of what they're about to learn about. This is the place for you to use metaphors or familiar everyday objects to relate the abstract computer concept to. Here is where we will tell the students the "WHY" behind what they're about to read and learn about. Then we'll give them an overview of the material, sort of a "Big Picture" of the new concept so they can go in with a context of the very NEW material.-->
+
+Let's learn how to conditionaly render html elements based on dynamic data.
+<!-- @TODO ^^^ Replace Example Text ^^^ -->
+
+### Read It - NgIf
+
+<!-- @TODO ATTENTION: DEVELOPER, Give them something to read in your words, as if you were talking to them about the topic. Within the reading you can link to a few articles: Medium, Wikipedia, Microsoft, CSS-Tricks, W3S, MozillaDev, etc... anything that can help give more perspective on the subject.  -->
+
+
+<!-- @TODO ^^^ Replace Example Text ^^^ -->
+
+******
+
+### See It - [NgIf]()
+
+<!-- @TODO ATTENTION: DEVELOPER,
+1) This should be a clear, high-quality, non-lame video that helps visually explain the concept at-hand. 
+2) It can come from youTube as long as it doesn't advertise or come from another code school. 
+3) Preferably, all video content should come from ACA. 
+4) THIS PLACEHOLDER VIDEO BELOW BETTER BE REPLACED!!!!!
+-->
+
+<iframe width="560" height="315" src="https://drive.google.com/file/d/14FBojbJoteik-4Rir3-2QHnyHctgIwte/preview" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+******
+
+### Practice It - [NgIf](URLtoEXAMPLE2)
+
+<!-- @TODO ATTENTION: DEVELOPER,
+1) Insert an iframe of a DotNet Fiddle, CodePen, or Repl.it with  pre-built code block(s) for the student to begin tinkering with quickly. 
+2) The Code Sandbox should owned by ACA; 
+3)if you don't have the credentials for the ACA account ASK!!. 
+4)In the sandbox above you will do x, y, z. Give the student  instructions to get them in to the code more quickly. Remember, they're very young and you will need to guide them a little more to get them going. -->
+
+1. Try implementing NgIf in a stackblitz project
+
+******
+
+### Know Your Docs - NgIf
+<!-- @TODO ATTENTION: DEVELOPER, Student's often forget there is documentation to use. Give them the link so they know where it is. -->
+
+Be sure to reference the official documentation on [NgIf](https://angular.io/api/common/NgIf). Documentation makes software useful. All *good* software comes with documentation so new developers can pick it up, learn quickly, apply, and even change it if needed.
+
+******
+
+
+
+
 
 ## Questions for Class Discussion
 <!-- @TODO ATTENTION: DEVELOPER, Write down a few questions you'd like to ask the student by the time they've finished this pre-homework. We'll copy/paste them to the following class day. -->
